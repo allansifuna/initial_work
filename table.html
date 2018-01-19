@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="margin-top:0"><!-- 
+	<form action="" method="">
+		<input type="text" name="">	
+		<br><br>
+		<input type="password" name="">	
+		<br><br>
+		<input type="number" name="">	
+		<br><br>
+		<input type="email" name="">
+		<br><br>
+		<input type="date" name="">	
+		<br><br>
+		<input type="radio" name="">
+		<br><br>
+		<input type="radio" name="">
+		<br><br>
+		<input type="submit" name="submit">
+
+
+	</form> -->
+	<table> 
+		<tr><label>
+			<td>Username:</td> 
+			<td><input type="text" name="username" placeholder="Enter your username"></td>
+		</label></tr>
+				<br><br>
+		<tr><td><label for="pass">Password:</label></td>
+			<td><input type="password" name="pass" placeholder="Enter your password" id="pass"></td>
+		</tr> 
+		<br><br>
+		<tr><label> <td rowspan="4">Gender</td> </tr>
+			<tr><td>Male:<input type="radio" name="gender" value="Male"></td></tr><tr><td>Female:<input type="radio" name="gender" value="Female"></td></tr>
+			<tr><td>Other:<input type="radio" name="gender" value="Other"></td></tr> 	
+		</label>
+		
+		<br><br>
+		<label>
+			<tr><td rowspan="6">Skills:</td></tr>
+			<tr><td>HTML:<input type="checkbox" name="html"></td></tr>
+			<tr><td>CSS:<input type="checkbox" name="css"></td></tr>
+			<tr><td>JAVA:<input type="checkbox" name="java"></td></tr>
+			<tr><td>SQL:<input type="checkbox" name="sql"></td></tr>
+			<tr><td>PHP:<input type="checkbox" name="php"></td></tr>
+		</label>
+		<br><br>
+		<tr><td><label for="counties">Select your county</label></td>
+		<td><select name="county" id="counties">
+			<option></option>
+			<option value="Nairobi">Nairobi</option>
+			<option value="Kiambu">Kiambu</option>
+			<option value="Mombasa">Mombasa</option>
+			<option value="Nyeri">Nyeri</option>
+			<option value="Bungoma">Bungoma</option>
+			<option value="Uasin gishu">Uasin gishu</option>
+		</select></td></tr>
+		<br><br>
+		<tr><td><label>Comment:<br></td>
+			<td><textarea name="comments" cols="65" rows="6"></textarea>
+		</label></td>
+		<br><br>
+		<tr><td><input type="submit" name="submit" value="Log in"></td></tr>
+	</table>
+</body>
+</html>

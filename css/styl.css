@@ -1,0 +1,19 @@
+body{
+	background-color: pink;
+}
+#div1{
+	background-color: green;
+	color:blue;
+	width:350px;
+	height:350px;
+	margin:70px;
+	padding:70px;
+}
+#div2{
+	color:green;
+	background-color:skyblue;
+	width:200px;
+	height:350px;
+	border:20px green dashed;
+	float:left;
+}

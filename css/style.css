@@ -1,0 +1,73 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#80ffff;
+	width:100%
+	height:100%;
+}
+.container{
+	width:80%;
+	height:70%;
+	margin:auto;
+	background-color:#ccffff;
+}
+.showcase{
+	min-height: 400px;
+	height:30%;
+	text-align: center;
+	background-image:url('../img/sky.jpeg');
+	background-size:cover;
+}
+.header{
+	min-height:70px;
+	background-color:#1aa3ff;
+	color:#00ff80;
+	padding-top:20px;
+	border-bottom:red 4px solid;
+}
+.nav a{
+	color:green;
+	text-decoration:none;
+	font-size:18px;
+	text-transform:uppercase;
+	padding: 14px 12px;
+}
+.nav li{
+list-style-type:none;
+display:inline;
+}
+.branding{
+	float:left;
+}
+.nav{
+	float: right;
+	margin-top:0px;
+}
+.nav ul{
+	background-color:skyblue;
+	padding:14px 12px;
+}
+.nav a:hover{
+	background-color: #1a75ff;
+	font-weight:bold;
+}
+.boxes{
+	margin-top:0px;
+	display:block;
+}
+.box{
+	width: 30%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	margin-right:4px;
+}
+.box img{
+	width:200px;
+}
+.footer{
+	background-color:green;
+	padding:14px;
+	text-align:center;
+	clear:both;
+}
